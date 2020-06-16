@@ -1,5 +1,5 @@
 const nome = 'Cláudio';
-const sexo = 'F';
+const sexo = 'M';
 const idade = 55;
 const contribuicao = 35;
 const tempoaposenta=idade+contribuicao;
@@ -12,7 +12,7 @@ if(sexo=='M'){
     }
 } else if(sexo=='F'){
     if(contribuicao>=25&&tempoaposenta>=85){
-        console.log(`Olá, ${nome}, você já pode se aposentar!`);
+        console.log(`Olá ${nome}, você já pode se aposentar!`);
     }else{
         console.log(`Olá ${nome}, você ainda não pode se aposentar!`);
     }
